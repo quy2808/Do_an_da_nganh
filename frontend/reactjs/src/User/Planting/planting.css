@@ -1,0 +1,37 @@
+.planting {
+  width: 80%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #b6e3d4;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+}
+
+.planting_value {
+    font-weight: bold;
+    background-color: #8aafa3;
+}
+
+.planting_controller {
+    font-weight: bold;
+    background-color: #8aafa3;
+}
+
+.planting button {
+    border-radius: 20px;
+    width: 100px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .planting {
+        width: 820px;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .planting {
+        width: 540px;
+    }
+}

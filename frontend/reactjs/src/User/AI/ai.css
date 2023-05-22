@@ -1,0 +1,43 @@
+.ai {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b6e3d4;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-y: auto;
+}
+
+.abnormal-value {
+    color: red;
+    font-weight: bold;
+}
+
+#abnormal-table {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-size: 150%;
+}
+
+#abnormal-table thead {
+    font-weight: bold;
+}
+
+#abnormal-table td:nth-child(even) {
+    background-color: #8aafa3;
+}
+
+@media only screen and (max-width: 1100px) {
+    .ai {
+        width: 820px;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .ai {
+        width: 540px;
+    }
+}
